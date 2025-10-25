@@ -1,4 +1,3 @@
-
 import { createRoot } from "react-dom/client";
 import "./index.css";
 
@@ -19,11 +18,9 @@ function TestApp() {
       <div>
         <h1>Portfolio Test - React is Working! 🎉</h1>
         <p>If you see this, the deployment is successful.</p>
-        <p>Device: {navigator.userAgent.includes('Mobile') ? 'Mobile' : 'Desktop'}</p>
       </div>
     </div>
   );
 }
 
 createRoot(document.getElementById("root")!).render(<TestApp />);
-  
