@@ -15,11 +15,11 @@ export const OurProjects = memo(function OurProjects() {
       text: "Creative Design 1",
     },
     {
-      image: `/assets/0002 (1).jpg`,
+      image: `/assets/0002 (1).png`,
       text: "Creative Design 2",
     },
     {
-      image: `/assets/0003.jpg`,
+      image: `/assets/0003.png`,
       text: "Creative Design 3",
     },
     {
@@ -27,7 +27,7 @@ export const OurProjects = memo(function OurProjects() {
       text: "Feastale Event",
     },
     {
-      image: `/assets/launch poster.jpg`,
+      image: `/assets/launch poster.png`,
       text: "Launch Poster",
     },
     {
@@ -51,19 +51,19 @@ export const OurProjects = memo(function OurProjects() {
       text: "Brand Design 3",
     },
     {
-      image: `/assets/White and Purple Modern Event Speaker List Instagram Post (1).jpg`,
+      image: `/assets/White and Purple Modern Event Speaker List Instagram Post (1).png`,
       text: "Event Speaker List",
     },
     {
-      image: `/assets/NEC.jpg`,
+      image: `/assets/NEC.png`,
       text: "NEC Project",
     },
     {
-      image: `/assets/obt.jpg`,
+      image: `/assets/obt.png`,
       text: "OBT Design",
     },
     {
-      image: `/assets/placement.jpg`,
+      image: `/assets/placement.png`,
       text: "Placement Drive",
     },
     {
@@ -71,11 +71,11 @@ export const OurProjects = memo(function OurProjects() {
       text: "Poster Design 1",
     },
     {
-      image: `/assets/poster 2.jpg`,
+      image: `/assets/poster 2.png`,
       text: "Poster Design 2",
     },
     {
-      image: `/assets/YRTS.jpg`,
+      image: `/assets/YRTS.png`,
       text: "YRTS Project",
     },
   ];

@@ -7,22 +7,22 @@ export function AndroidProjectsSection() {
 
   const projects = [
     { image: `/assets/0001 (1).jpg`, text: "Creative Design 1" },
-    { image: `/assets/0002 (1).jpg`, text: "Creative Design 2" },
-    { image: `/assets/0003.jpg`, text: "Creative Design 3" },
+    { image: `/assets/0002 (1).png`, text: "Creative Design 2" },
+    { image: `/assets/0003.png`, text: "Creative Design 3" },
     { image: `/assets/feastale-20251023-0001.jpg`, text: "Feastale Event" },
-    { image: `/assets/launch poster.jpg`, text: "Launch Poster" },
+    { image: `/assets/launch poster.png`, text: "Launch Poster" },
     { image: `/assets/leadiedc-20251023-0001.jpg`, text: "Leadership Event 1" },
     { image: `/assets/leadiedc-20251023-0002.jpg`, text: "Leadership Event 2" },
     { image: `/assets/WhatsApp Image 2025-10-20 at 2.45.25 AM.jpeg`, text: "Brand Design 1" },
     { image: `/assets/WhatsApp Image 2025-10-20 at 3.00.25 AM.jpeg`, text: "Brand Design 2" },
     { image: `/assets/WhatsApp Image 2025-10-20 at 3.03.20 AM.jpeg`, text: "Brand Design 3" },
-    { image: `/assets/White and Purple Modern Event Speaker List Instagram Post (1).jpg`, text: "Event Speaker List" },
-    { image: `/assets/NEC.jpg`, text: "NEC Project" },
-    { image: `/assets/obt.jpg`, text: "OBT Design" },
-    { image: `/assets/placement.jpg`, text: "Placement Drive" },
+    { image: `/assets/White and Purple Modern Event Speaker List Instagram Post (1).png`, text: "Event Speaker List" },
+    { image: `/assets/NEC.png`, text: "NEC Project" },
+    { image: `/assets/obt.png`, text: "OBT Design" },
+    { image: `/assets/placement.png`, text: "Placement Drive" },
     { image: `/assets/poster 1.jpg`, text: "Poster Design 1" },
-    { image: `/assets/poster 2.jpg`, text: "Poster Design 2" },
-    { image: `/assets/YRTS.jpg`, text: "YRTS Project" }
+    { image: `/assets/poster 2.png`, text: "Poster Design 2" },
+    { image: `/assets/YRTS.png`, text: "YRTS Project" }
   ];
 
   // Intersection observer - show content immediately

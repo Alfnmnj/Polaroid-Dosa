@@ -129,25 +129,25 @@ class GlobalImagePreloader {
 // Global instance
 export const globalImagePreloader = new GlobalImagePreloader();
 
-// Project image URLs - Updated to use correct asset paths
+// Project image URLs - Updated to use optimized PNG versions
 export const ALL_PROJECT_IMAGES = [
   "/assets/0001 (1).jpg",
-  "/assets/0002 (1).jpg", 
-  "/assets/0003.jpg",
+  "/assets/0002 (1).png", 
+  "/assets/0003.png",
   "/assets/feastale-20251023-0001.jpg",
-  "/assets/launch poster.jpg",
+  "/assets/launch poster.png",
   "/assets/leadiedc-20251023-0001.jpg",
   "/assets/leadiedc-20251023-0002.jpg",
   "/assets/WhatsApp Image 2025-10-20 at 2.45.25 AM.jpeg",
   "/assets/WhatsApp Image 2025-10-20 at 3.00.25 AM.jpeg",
   "/assets/WhatsApp Image 2025-10-20 at 3.03.20 AM.jpeg",
-  "/assets/White and Purple Modern Event Speaker List Instagram Post (1).jpg",
-  "/assets/NEC.jpg",
-  "/assets/obt.jpg",
-  "/assets/placement.jpg",
+  "/assets/White and Purple Modern Event Speaker List Instagram Post (1).png",
+  "/assets/NEC.png",
+  "/assets/obt.png",
+  "/assets/placement.png",
   "/assets/poster 1.jpg",
-  "/assets/poster 2.jpg",
-  "/assets/YRTS.jpg"
+  "/assets/poster 2.png",
+  "/assets/YRTS.png"
 ];
 
 // Initialize simple preloading on app start
