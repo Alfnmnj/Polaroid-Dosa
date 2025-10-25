@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Polaroid-Dosa/',
+  base: process.env.NODE_ENV === 'production' ? '/Polaroid-Dosa/' : '/',
   plugins: [react()],
   build: {
     // Optimize for modern hosting platforms (Vercel, Netlify)

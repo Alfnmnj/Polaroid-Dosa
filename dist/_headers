@@ -1,0 +1,41 @@
+# Cache static assets aggressively
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+  Accept-Ranges: bytes
+
+# Cache images
+*.jpg
+  Cache-Control: public, max-age=31536000, immutable
+  Accept-Ranges: bytes
+  Vary: Accept-Encoding
+
+*.jpeg
+  Cache-Control: public, max-age=31536000, immutable
+  Accept-Ranges: bytes
+  Vary: Accept-Encoding
+
+*.png
+  Cache-Control: public, max-age=31536000, immutable
+  Accept-Ranges: bytes
+  Vary: Accept-Encoding
+
+*.gif
+  Cache-Control: public, max-age=31536000, immutable
+  Accept-Ranges: bytes
+  Vary: Accept-Encoding
+
+*.webp
+  Cache-Control: public, max-age=31536000, immutable
+  Accept-Ranges: bytes
+  Vary: Accept-Encoding
+
+# Cache JS and CSS
+*.js
+  Cache-Control: public, max-age=31536000, immutable
+
+*.css
+  Cache-Control: public, max-age=31536000, immutable
+
+# Don't cache HTML
+*.html
+  Cache-Control: public, max-age=0, must-revalidate
