@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react-swc'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/Polaroid-Dosa/',
   plugins: [react()],
   build: {
     // Optimize for modern hosting platforms (Vercel, Netlify)
@@ -49,7 +50,14 @@ export default defineConfig({
   // Optimize dev server
   server: {
     host: true,
-    port: 3000
+    port: 3000,
+    // Allow ngrok and other external hosts
+    allowedHosts: [
+      'localhost',
+      '.ngrok-free.app',
+      '.ngrok.io',
+      '.ngrok.app'
+    ]
   },
   // Asset optimization
   assetsInclude: ['**/*.png', '**/*.jpg', '**/*.jpeg', '**/*.gif', '**/*.svg', '**/*.webp'],
