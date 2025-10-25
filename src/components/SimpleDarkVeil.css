@@ -1,0 +1,52 @@
+.simple-dark-veil {
+  width: 100%;
+  height: 100%;
+  display: block;
+  opacity: 0.9;
+  transition: opacity 0.3s ease-in-out;
+}
+
+/* Ensure the canvas is always behind content */
+.simple-dark-veil {
+  z-index: -10 !important;
+  pointer-events: none;
+}
+
+/* Fallback CSS animation for very low-end devices */
+@media (max-width: 480px) and (max-height: 800px) {
+  .simple-dark-veil {
+    display: none;
+  }
+  
+  .simple-dark-veil-fallback {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      135deg,
+      #fcf7f0 0%,
+      #f5ead6 25%,
+      #fcf7f0 50%,
+      #f0e6d2 75%,
+      #fcf7f0 100%
+    );
+    background-size: 400% 400%;
+    animation: gradientShift 8s ease-in-out infinite;
+    opacity: 0.9;
+    z-index: -10;
+  }
+}
+
+@keyframes gradientShift {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
